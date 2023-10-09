@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+}
+
+header{
+    margin-top: 0;
+    padding: 50px 0;
+    color: rgb(14, 14, 1);
+    display: block;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    cursor: pointer;
+    list-style: none;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+body {
+    display: block;
+    justify-content: center; 
+    align-items: center; 
+    font-style: italic;
+    height: 200px; 
+    margin: 200px; 
+    padding: 0; 
+}
+
+button{
+    background-color: #060b08;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:  beige;
+}
